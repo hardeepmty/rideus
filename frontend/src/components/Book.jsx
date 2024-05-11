@@ -10,8 +10,8 @@ const Book = () => {
       </div>
         
       <div className="form-container">
-        <form className="form" style={{ backgroundColor: "#45a29a",  padding: "20px" }}>
-          <Typography variant='h5' style={{ color: "black", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Odisha's Best Rental </Typography>
+        <form className="form" style={{ backgroundColor: "#0b0c10",  padding: "20px" }}>
+          <Typography variant='h5' style={{ color: "#45a29e", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Search Your Ideal Vehicle</Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField
@@ -23,7 +23,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
-                  style: { color: 'black', fontWeight: 'bold' }
+                  style: { color: '#c5c6c7', fontWeight: 'bold', fontFamily:"Montserrat" }
                 }}
               >
                 <MenuItem value="city1">City 1</MenuItem>
@@ -40,7 +40,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
-                  style: { color: 'black', fontWeight: 'bold' }
+                  style: { color: '#c5c6c7', fontWeight: 'bold', fontFamily:"Montserrat" }
                 }}
               />
             </Grid>
@@ -54,7 +54,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
-                  style: { color: 'black', fontWeight: 'bold' }
+                  style: { color: '#c5c6c7', fontWeight: 'bold', fontFamily:"Montserrat" }
                 }}
               />
             </Grid>
@@ -68,7 +68,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
-                  style: { color: 'black', fontWeight: 'bold' }
+                  style: { color: '#c5c6c7', fontWeight: 'bold', fontFamily:"Montserrat" }
                 }}
               />
             </Grid>
@@ -82,7 +82,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
-                  style: { color: 'black', fontWeight: 'bold' }
+                  style: { color: '#c5c6c7', fontWeight: 'bold', fontFamily:"Montserrat" }
                 }}
               />
             </Grid>
