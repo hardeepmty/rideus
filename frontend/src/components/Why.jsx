@@ -8,7 +8,7 @@ const Why = () => {
       <div style={{ }}>
         <Typography variant='h4' sx={{ color: '#66fcf1', fontFamily: 'Montserrat', textAlign: 'center', fontWeight: "500px" }}>Why Choose Us?</Typography>
 
-        <Grid container spacing={3} justifyContent="center" sx={{ mt: "10px", alignItems: "center", display: "flex", justifyContent: "center", paddingLeft: { xs: '10px', sm: '18px', md: '18px', lg: '145px' }, paddingRight: { xs: '10px', sm: '18px', md: '18px', lg: '140px' } }}>
+        <Grid container spacing={3} justifyContent="center" sx={{ mt: "10px", alignItems: "center", display: "flex", justifyContent: "center", paddingLeft: { xs: '18px', sm: '18px', md: '18px', lg: '145px' }, paddingRight: { xs: '15px', sm: '18px', md: '18px', lg: '140px' } }}>
           {features.map((feature, index) => (
             <Grid item xs={4} sm={6} md={4} key={index}>
               <Card sx={{ bgcolor: "transparent", border: "1px solid #66fcf1", borderRadius:"10px" }}>

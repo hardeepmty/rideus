@@ -20,7 +20,7 @@ const features = [
     icon: "/images/quality.png",
   },
   {
-    name: "Access to Rideus Club",
+    name: "Rideus Club",
     icon: "/images/club.png",
   },
 ];

@@ -1,0 +1,140 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-section {
+  margin-top: 50px;
+  background: #000000;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-cta .single-cta i {
+  color: #ff5e14;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+
+.cta-text h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.cta-text span {
+  font-size: 14px;
+}
+
+.footer-content .footer-widget-heading h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.footer-content .footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  width: 30px;
+  background: #ff5e14;
+}
+
+.footer-text p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer-social-icon span {
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-social-icon a {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.footer-social-icon i {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 50%;
+}
+
+.footer-widget ul li {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer-widget ul li a:hover {
+  color: #ff5e14;
+}
+
+.footer-widget ul li a {
+  font-size: 14px;
+  color: #878787;
+  text-transform: capitalize;
+}
+
+.subscribe-form input {
+  width: 100%;
+  padding: 12px 24px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+
+.subscribe-form button {
+  background: #ff5e14;
+  padding: 12px 20px;
+  border: 1px solid #ff5e14;
+}
+
+.subscribe-form button i {
+  color: #fff;
+  font-size: 20px;
+  transform: rotate(-6deg);
+}
+
+.copyright-area {
+  background: #202020;
+  padding: 20px 0;
+}
+
+.footer-menu {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.footer-menu li a:hover {
+  color: #ff5e14;
+}
+
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Inherits color from parent element */
+}
+
