@@ -1,27 +1,27 @@
 const features = [
   {
-    name: "Responsive Design",
-    icon: "/icons/responsive-design.svg",
+    name: "Best,Base and fixed price",
+    icon: "/images/fixedprice.png",
   },
   {
-    name: "Fast Performance",
-    icon: "/icons/fast-performance.svg",
+    name: "No Convenience Fees",
+    icon: "/images/no fee.png",
   },
   {
-    name: "User-Friendly Interface",
-    icon: "/icons/user-friendly.svg",
+    name: "New Vehicle Fleet",
+    icon: "/images/newfleet.png",
   },
   {
-    name: "Secure Transactions",
-    icon: "/icons/secure-transactions.svg",
+    name: "Convenience is Proirity",
+    icon: "/images/convenience.png",
   },
   {
-    name: "24/7 Support",
-    icon: "/icons/support.svg",
+    name: "Quality and Safety",
+    icon: "/images/quality.png",
   },
   {
-    name: "Customizable Options",
-    icon: "/icons/customizable-options.svg",
+    name: "Access to Rideus Club",
+    icon: "/images/club.png",
   },
 ];
 
