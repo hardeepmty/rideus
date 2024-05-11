@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Play.css'; 
 
 const Play = () => {
   return (
-    <div style={{ alignItems:"center"}}>
-      {/* <img src='/images/play.png'alt='df' style={{width:"340px", padding:"20px", marginLeft:"25px"}}/> */}
+    <div className="play-container">
+      <img src='/images/play.png' alt='df' className="play-image" />
     </div>
-  )
-}
+  );
+};
 
-export default Play
+export default Play;

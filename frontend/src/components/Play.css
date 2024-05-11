@@ -1,0 +1,17 @@
+.play-container {
+  display: flex;
+  justify-content: center; /* Center align on all devices */
+}
+
+.play-image {
+  width: 350px;
+  padding: 20px;
+  margin-left: 1px;
+}
+
+/* Media Query for laptops/desktops */
+@media (min-width: 768px) {
+  .play-image {
+    display: none; /* Hide on laptops/desktops */
+  }
+}

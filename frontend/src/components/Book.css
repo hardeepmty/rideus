@@ -14,9 +14,8 @@ body{
 }
 
 .form {
-  background-color: green;
   padding: 40px;
-  margin-top: -200px;
+  margin-top: -190px;
   max-width: 310px;
   width: auto;
   border-radius: 10px;
@@ -55,6 +54,7 @@ button[type="submit"] {
   .form{
     max-width: 1300px;
     width: 1200px ;
+    margin-top: -300px;
   }
   .form-group {
     display: inline-flex;

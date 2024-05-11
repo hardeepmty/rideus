@@ -10,8 +10,8 @@ const Book = () => {
       </div>
         
       <div className="form-container">
-        <form className="form" style={{ backgroundColor: "#45a29a", marginTop: "-200px", padding: "20px" }}>
-          <Typography variant='h5' style={{ color: "black", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Odisha's Best Rental Cars</Typography>
+        <form className="form" style={{ backgroundColor: "#45a29a",  padding: "20px" }}>
+          <Typography variant='h5' style={{ color: "black", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Odisha's Best Rental </Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField
@@ -88,7 +88,7 @@ const Book = () => {
             </Grid>
           </Grid>
           <div style={{ textAlign: "center", marginTop: "20px" }}>
-            <Button variant="contained" color="primary" type="submit">Submit</Button>
+            <Button variant="contained" color="primary" type="submit">Explore Cars</Button>
           </div>
         </form>
       </div>
