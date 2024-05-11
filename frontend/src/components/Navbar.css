@@ -4,7 +4,7 @@
   align-items: center;
   color: white;
   padding: 5px 5px; 
-  background-color: black;
+  background-color: #0b0c10;
 
 }
 
@@ -34,7 +34,7 @@
 .navbar-toggle-bar {
   width: 30px; 
   height: 4px; 
-  background-color: rgb(27, 25, 25); 
+  background-color: #66fcf1; 
   margin: 3px 0; 
 }
 
@@ -46,7 +46,7 @@
 
 
 .navbar-link {
-  color: rgb(157, 147, 147);
+  color:#66fcf1;
   text-decoration: none;
   font-size: 16px;
   padding: 5px 10px;

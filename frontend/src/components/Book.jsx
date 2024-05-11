@@ -8,10 +8,10 @@ const Book = () => {
       <div className='road' style={{ textAlign: "center", paddingTop: "30px" }}>
         <Typography variant='h4' style={{ color: "white", fontFamily: "Montserrat", fontWeight: "500" }}>Explore The Roads of Odisha</Typography>
       </div>
-
+        
       <div className="form-container">
-        <form className="form" style={{ backgroundColor: "black", marginTop: "-190px", padding: "20px" }}>
-          <Typography variant='body1' style={{ color: "white", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Odisha's Best Rental Cars</Typography>
+        <form className="form" style={{ backgroundColor: "#45a29a", marginTop: "-200px", padding: "20px" }}>
+          <Typography variant='body1' style={{ color: "black", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Odisha's Best Rental Cars</Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField
@@ -36,6 +36,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
+                  style: { color: 'black', fontWeight: 'bold' }
                 }}
               />
             </Grid>
@@ -49,6 +50,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
+                  style: { color: 'black', fontWeight: 'bold' }
                 }}
               />
             </Grid>
@@ -62,6 +64,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
+                  style: { color: 'black', fontWeight: 'bold' }
                 }}
               />
             </Grid>
@@ -75,6 +78,7 @@ const Book = () => {
                 size="small"
                 InputLabelProps={{
                   shrink: true,
+                  style: { color: 'black', fontWeight: 'bold' }
                 }}
               />
             </Grid>
