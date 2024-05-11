@@ -6,12 +6,12 @@ const Book = () => {
   return (
     <div>
       <div className='road' style={{ textAlign: "center", paddingTop: "30px" }}>
-        <Typography variant='h4' style={{ color: "white", fontFamily: "Montserrat", fontWeight: "500" }}>Explore The Roads of Odisha</Typography>
+        <Typography variant='h4' style={{ color: "white", fontFamily: "Montserrat", fontWeight: "500" }}>Discover Roads with Rideus</Typography>
       </div>
         
       <div className="form-container">
         <form className="form" style={{ backgroundColor: "#45a29a", marginTop: "-200px", padding: "20px" }}>
-          <Typography variant='body1' style={{ color: "black", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Odisha's Best Rental Cars</Typography>
+          <Typography variant='h5' style={{ color: "black", fontFamily: "Montserrat", fontWeight: "500", marginBottom: "20px", textAlign:"center" }}>Odisha's Best Rental Cars</Typography>
           <Grid container spacing={2}>
             <Grid item xs={12} sm={6}>
               <TextField
@@ -21,6 +21,10 @@ const Book = () => {
                 fullWidth
                 variant="standard"
                 size="small"
+                InputLabelProps={{
+                  shrink: true,
+                  style: { color: 'black', fontWeight: 'bold' }
+                }}
               >
                 <MenuItem value="city1">City 1</MenuItem>
                 <MenuItem value="city2">City 2</MenuItem>
